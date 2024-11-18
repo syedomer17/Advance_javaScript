@@ -24,14 +24,14 @@ try {
 //        console.log("error is occur:",error.message); 
 //     }
 // }
-console.log(Areaofrectangal(5,3));
+// console.log(Areaofrectangal(5,3));
 
 // arrow function 
-let areaofrectangal(l,b) => {
+let areaofrectangal = (l,b)=>{
     try {
         return l*b;
     } catch (error) {
-        console.log("error occur:",error.message);
+        console.log("error hai:",error.message);
     }
-};
+}
 console.log(areaofrectangal(12,12));
