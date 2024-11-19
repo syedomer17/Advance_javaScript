@@ -35,3 +35,17 @@ let areaofrectangal = (l,b)=>{
     }
 }
 console.log(areaofrectangal(12,12));
+
+try {
+    let leapyear =(year)=>{
+        if(year %4 ==0){
+            return "leap year";
+        }else{
+            return "non leap year";
+        }
+    };
+    let check = leapyear(2004);
+    console.log(check);
+} catch (error) {
+    console.log(`error hai ${error}`);
+}
