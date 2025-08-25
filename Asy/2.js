@@ -47,7 +47,6 @@ function shipToStore(product) {
         }, 2000);
     });
 }
-
 // .then() execution
 checkStock("Laptop")
     .then((message1) => {
